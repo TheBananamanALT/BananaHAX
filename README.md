@@ -7,4 +7,4 @@
 # What's new?
 ## You now are REQUIRED to have an OFFICIAL Microsoft account to play this game.
 ## 1.20.4 is the latest version now.
-# --------------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------
