@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch http",
+            "type": "python",
+            "request": "launch",
+            "program": "http.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Debug http",
+            "type": "python",
+            "request": "attach",
+            "port": 5678,
+            "host": "localhost"
+        }
+    ]
+}

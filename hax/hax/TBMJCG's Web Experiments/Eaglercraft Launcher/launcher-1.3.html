@@ -1,0 +1,42 @@
+<html>
+ 
+  <head>
+  </head>
+ 
+  <body>
+    <title>EaglerCraft Launcher (1.5.2) (HTTP doesn't work yet)</title>
+    <h1>Minecraft 1.8.8</h1>
+    <h2>DISCLAIMER: Before playing, always click 5 times before the page loads, or you may not be able to move your character.</h2>
+    <b><i>Click "Play Now" to launch Minecraft 1.8.8! (shader support) (HTTP doesn't work yet)</i></b>
+    <button style="background-color: rgb(0, 121, 50); color: rgb(0, 139, 58); padding: 10px 20px; border-radius: 4px;">Play Now</button>
+    <script>
+      var urlObj = new window.URL(window.location.href);
+      var url = "https://eaglercraft.com/mc/b1.3/";
+      if (url) {
+        var win;
+ 
+        document.querySelector('button').onclick = function() {
+          if (win) {
+            win.focus();
+          } else {
+            win = window.open();
+            win.document.body.style.margin = '0';
+            win.document.body.style.height = '100vh';
+            var iframe = win.document.createElement('iframe');
+            iframe.style.border = 'none';
+            iframe.style.width = '100%';
+            iframe.style.height = '100%';
+            iframe.style.margin = '0';
+            iframe.src = url;
+            win.document.body.appendChild(iframe);
+          }
+          document.querySelector('button').style.bacground = 'grey';
+          document.querySelector('button').innerHTML = "Play Now";
+          window.close()
+        }
+      }
+ 
+    </script>
+  </body>
+ 
+</html>
