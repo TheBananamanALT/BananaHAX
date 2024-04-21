@@ -1,0 +1,6 @@
+## Ignore Markdown source files.
+## Get latest from https://github.com/github/gitignore/blob/main/md.gitignore
+
+# User-specific files
+*.md
+*.txt
